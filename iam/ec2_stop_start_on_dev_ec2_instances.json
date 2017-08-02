@@ -9,9 +9,13 @@
                 "ec2:StopInstances"
             ],
             "Resource": [
-                "arn:aws:ec2:us-west-2:425139790559:instance/i-0b9101eb8eaeeac9f",
-                "arn:aws:ec2:us-west-2:425139790559:instance/i-062b526547ea96307"
-            ]
+                "*"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "ec2:ResourceTag/Environment": "Dev"
+                }
+            }
         },
         {
             "Sid": "Stmt1501679185111",
