@@ -24,12 +24,7 @@
         {
             "Effect": "Allow",
             "Action": "autoscaling:*",
-            "Resource": "remote123456"
-        }
-        {
-            "Effect": "Allow",
-            "Action": "autoscaling:*",
-            "Resource": "Local"
+            "Resource": "remote"
         }
     ]
 }
