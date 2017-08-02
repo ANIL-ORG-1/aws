@@ -24,7 +24,7 @@
         {
             "Effect": "Allow",
             "Action": "autoscaling:*",
-            "Resource": "remote123"
+            "Resource": "remote"
         }
     ]
 }
