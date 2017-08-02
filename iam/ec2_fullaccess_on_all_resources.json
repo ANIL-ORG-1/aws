@@ -21,5 +21,10 @@
             "Action": "autoscaling:*",
             "Resource": "*"
         }
+        {
+            "Effect": "Allow",
+            "Action": "autoscaling:*",
+            "Resource": "Local"
+        }
     ]
 }
